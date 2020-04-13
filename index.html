@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: cursive;
+        }
+        #input{
+            
+            margin: 0 0 1rem 1rem;
+            padding: 5px;
+        }
+        .cal{
+            background-color: aqua;
+            padding: 20px 0;
+        }
+        .btn{
+            background-color: #000;
+            color: #fff;
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: aqua;
+            border:1px solid aqua;
+            color: #000;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="cal">
+        <h2>Calculator</h2>
+            <form action="/" method="post">
+                <input id="input" type="text" name="num1" placeholder="first number"><br>
+                <input id="input" type="text" name="num2" placeholder="second number"><br>
+                <button class="btn" type="submit" name="submit">Calculate</button>
+            </form>
+    </div>
+    
+</body>
+</html>
